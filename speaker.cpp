@@ -5,7 +5,7 @@
 #define NOTE_B3  247
 #define NOTE_C4  262
 
-// Define component pins
+// Define component pins 
 const int speakerPin = 8;
 
 // notes in the melody:
