@@ -14,7 +14,7 @@ const int ledG = 4;
 const int speakerPin = 5;
 const int pushbuttonPin = 6;
 
-// Define a simple crossing melody
+// Define a simple crossing melody 
 int melody[] = {
   NOTE_C4, NOTE_E4, NOTE_G4, NOTE_C4, NOTE_E4, NOTE_G4, NOTE_C4, NOTE_E4, NOTE_G4
 };

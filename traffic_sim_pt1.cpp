@@ -9,7 +9,7 @@
 
 //Defining component pins
 const int ledR = 2;
-const int ledY = 3;
+const int ledY = 3; 
 const int ledG = 4;
 const int speakerPin = 5;
 const int pushbuttonPin = 6;
