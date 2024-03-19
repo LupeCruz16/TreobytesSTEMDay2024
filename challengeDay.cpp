@@ -53,34 +53,33 @@ void loop() {
   noTone(speakerPin);
   
   if (digitalRead(button1) == HIGH) {
-    tone(speakerPin, 392); // G4
+    tone(speakerPin, 440); // A
     setRGB(255, 0, 0); 
   }
   if (digitalRead(button2) == HIGH) {
-    tone(speakerPin, 440); // A4
+    tone(speakerPin, 494); // B
     setRGB(0, 255, 0);
   }
   if (digitalRead(button3) == HIGH) {
-    tone(speakerPin, 494); // B4
+    tone(speakerPin, 494); // C
     setRGB(0, 0, 255);
   }
   if (digitalRead(button4) == HIGH) {
-    tone(speakerPin, 523); // C5
-    setRGB(255, 128, 0);
+    tone(speakerPin, 294); // D
+    setRGB(0, 0, 0);
   }
   if (digitalRead(button5) == HIGH) {
-    tone(speakerPin, 587); // D5
+    tone(speakerPin, 330); // E
     setRGB(255, 255, 0);
   }
   if (digitalRead(button6) == HIGH) {
-    tone(speakerPin, 659); // E5
+    tone(speakerPin, 349); // F
     setRGB(0, 255, 255);
   }
   if (digitalRead(button7) == HIGH) {
-    tone(speakerPin, 740); // F#5
+    tone(speakerPin, 392); // G
     setRGB(128, 128, 128);
   }
   
   delay(100);
 }
-
